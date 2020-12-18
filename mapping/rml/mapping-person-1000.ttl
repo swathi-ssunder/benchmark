@@ -1,0 +1,155 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix default: <http://www.kg.com/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix r2rml: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+
+
+default:objectMap35459973618155337998009508440776 a r2rml:ObjectMap ;
+	rml:reference "latitude" ;
+	r2rml:datatype xsd:string .
+
+default:objectMap35786818020155669013802286961239 a r2rml:ObjectMap ;
+	rml:reference "postal_code" ;
+	r2rml:datatype xsd:integer .
+
+default:objectMap50576214459894713927230528863354 a r2rml:ObjectMap ;
+	rml:reference "phone_number" ;
+	r2rml:datatype xsd:string .
+
+default:objectMap55370949073244303801567496152629 a r2rml:ObjectMap ;
+	rml:reference "name" ;
+	r2rml:datatype xsd:string .
+
+default:objectMap61927156066211993383126898534252 a r2rml:ObjectMap ;
+	rml:reference "city" ;
+	r2rml:datatype xsd:string .
+
+default:objectMap76080787075938595534097823810755 a r2rml:ObjectMap ;
+	rml:reference "birthdate" ;
+	r2rml:datatype xsd:string .
+
+default:objectMap76438659378885350684032471895430 a r2rml:ObjectMap ;
+	rml:reference "last_active" ;
+	r2rml:datatype xsd:dateTime .
+
+default:objectMap88135704195328557366349895878727 a r2rml:ObjectMap ;
+	rml:reference "longitude" ;
+	r2rml:datatype xsd:string .
+
+default:objectMap92721624909691950707072891843628 a r2rml:ObjectMap ;
+	rml:reference "active" ;
+	r2rml:datatype xsd:boolean .
+
+default:objectMap93055662493294733902436678931427 a r2rml:ObjectMap ;
+	rml:reference "address" ;
+	r2rml:datatype xsd:string .
+
+default:objectMap95750816906121796549912057988812 a r2rml:ObjectMap ;
+	rml:reference "email" ;
+	r2rml:datatype xsd:string .
+
+default:predicateMap01179913474326646365554156782518 a r2rml:PredicateMap ;
+	r2rml:constant <http://www.semanticweb.org/ontologies/2020/10/faker#phone> .
+
+default:predicateMap04892291712865980945818106244759 a r2rml:PredicateMap ;
+	r2rml:constant <http://www.semanticweb.org/ontologies/2020/10/faker#birthDate> .
+
+default:predicateMap19310500842724159313982933300178 a r2rml:PredicateMap ;
+	r2rml:constant <http://www.semanticweb.org/ontologies/2020/10/faker#name> .
+
+default:predicateMap20115124830276284901056968645137 a r2rml:PredicateMap ;
+	r2rml:constant <http://www.semanticweb.org/ontologies/2020/10/faker#name> .
+
+default:predicateMap33907216050384235653946644000109 a r2rml:PredicateMap ;
+	r2rml:constant <http://www.semanticweb.org/ontologies/2020/10/faker#latitude> .
+
+default:predicateMap47467840744803269421327470816729 a r2rml:PredicateMap ;
+	r2rml:constant <http://www.semanticweb.org/ontologies/2020/10/faker#email> .
+
+default:predicateMap56977678066105678182794060447045 a r2rml:PredicateMap ;
+	r2rml:constant <http://www.semanticweb.org/ontologies/2020/10/faker#lastActive> .
+
+default:predicateMap59370003471572415030995051595082 a r2rml:PredicateMap ;
+	r2rml:constant <http://www.semanticweb.org/ontologies/2020/10/faker#address> .
+
+default:predicateMap74270040588790437906723435435457 a r2rml:PredicateMap ;
+	r2rml:constant <http://www.semanticweb.org/ontologies/2020/10/faker#postalCode> .
+
+default:predicateMap95151092174555369167352358572111 a r2rml:PredicateMap ;
+	r2rml:constant <http://www.semanticweb.org/ontologies/2020/10/faker#active> .
+
+default:predicateMap96160952964671785049315644278387 a r2rml:PredicateMap ;
+	r2rml:constant <http://www.semanticweb.org/ontologies/2020/10/faker#longitude> .
+
+default:predicateObjectMap37630102370087873044486039638835 a r2rml:PredicateObjectMap ;
+	r2rml:objectMap default:objectMap88135704195328557366349895878727 ;
+	r2rml:predicateMap default:predicateMap96160952964671785049315644278387 .
+
+default:predicateObjectMap41508548905649110180376843464249 a r2rml:PredicateObjectMap ;
+	r2rml:objectMap default:objectMap76080787075938595534097823810755 ;
+	r2rml:predicateMap default:predicateMap04892291712865980945818106244759 .
+
+default:predicateObjectMap57583196781142815724070840099755 a r2rml:PredicateObjectMap ;
+	r2rml:objectMap default:objectMap50576214459894713927230528863354 ;
+	r2rml:predicateMap default:predicateMap01179913474326646365554156782518 .
+
+default:predicateObjectMap59664616960694213723043649784675 a r2rml:PredicateObjectMap ;
+	r2rml:objectMap default:objectMap35786818020155669013802286961239 ;
+	r2rml:predicateMap default:predicateMap74270040588790437906723435435457 .
+
+default:predicateObjectMap64525808002768297694913603677777 a r2rml:PredicateObjectMap ;
+	r2rml:objectMap default:objectMap55370949073244303801567496152629 ;
+	r2rml:predicateMap default:predicateMap20115124830276284901056968645137 .
+
+default:predicateObjectMap72771153738485500395650676936038 a r2rml:PredicateObjectMap ;
+	r2rml:objectMap default:objectMap61927156066211993383126898534252 ;
+	r2rml:predicateMap default:predicateMap19310500842724159313982933300178 .
+
+default:predicateObjectMap82515107037727141121182941955927 a r2rml:PredicateObjectMap ;
+	r2rml:objectMap default:objectMap95750816906121796549912057988812 ;
+	r2rml:predicateMap default:predicateMap47467840744803269421327470816729 .
+
+default:predicateObjectMap84243807804086060626359435468071 a r2rml:PredicateObjectMap ;
+	r2rml:objectMap default:objectMap35459973618155337998009508440776 ;
+	r2rml:predicateMap default:predicateMap33907216050384235653946644000109 .
+
+default:predicateObjectMap88699704978236415951978677299505 a r2rml:PredicateObjectMap ;
+	r2rml:objectMap default:objectMap93055662493294733902436678931427 ;
+	r2rml:predicateMap default:predicateMap59370003471572415030995051595082 .
+
+default:predicateObjectMap96896690573404465605801588522745 a r2rml:PredicateObjectMap ;
+	r2rml:objectMap default:objectMap76438659378885350684032471895430 ;
+	r2rml:predicateMap default:predicateMap56977678066105678182794060447045 .
+
+default:predicateObjectMap97402166564037779373217590638278 a r2rml:PredicateObjectMap ;
+	r2rml:objectMap default:objectMap92721624909691950707072891843628 ;
+	r2rml:predicateMap default:predicateMap95151092174555369167352358572111 .
+
+default:subjectMap11482508853277840452711979758185 a r2rml:SubjectMap ;
+	r2rml:class <http://www.semanticweb.org/ontologies/2020/10/faker#City> ;
+	r2rml:template "http://www.semanticweb.org/ontologies/2020/10/faker#City-{city}" .
+
+default:subjectMap75023408251669125048209255753744 a r2rml:SubjectMap ;
+	r2rml:class <http://www.semanticweb.org/ontologies/2020/10/faker#Person> ;
+	r2rml:template "http://www.semanticweb.org/ontologies/2020/10/faker#Person-{name}" .
+
+default:triplesMap24996890241398994416576734655068 a r2rml:TriplesMap ;
+	rdfs:label "City" ;
+	rml:logicalSource [
+        rml:source "../data/person-1000.csv";
+        rml:referenceFormulation ql:CSV
+    ] ;
+	r2rml:predicateObjectMap default:predicateObjectMap37630102370087873044486039638835 , default:predicateObjectMap72771153738485500395650676936038 , default:predicateObjectMap84243807804086060626359435468071 ;
+	r2rml:subjectMap default:subjectMap11482508853277840452711979758185 .
+
+default:triplesMap70000204537545121814410897493841 a r2rml:TriplesMap ;
+	rdfs:label "Person" ;
+	rml:logicalSource [
+        rml:source "../data/person-1000.csv";
+        rml:referenceFormulation ql:CSV
+    ] ;
+	r2rml:predicateObjectMap default:predicateObjectMap41508548905649110180376843464249 , default:predicateObjectMap57583196781142815724070840099755 , default:predicateObjectMap59664616960694213723043649784675 , default:predicateObjectMap64525808002768297694913603677777 , default:predicateObjectMap82515107037727141121182941955927 , default:predicateObjectMap88699704978236415951978677299505 , default:predicateObjectMap96896690573404465605801588522745 , default:predicateObjectMap97402166564037779373217590638278 ;
+	r2rml:subjectMap default:subjectMap75023408251669125048209255753744 .
